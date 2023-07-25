@@ -5,7 +5,7 @@
  * print_unsigned - Prints an unsigned number
  * @types: List of arguments
  * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * @flags: To Calculates active flags
  * @width: Width
  * @precision: Precision specification
  * @size: Size specifier
