@@ -4,7 +4,7 @@
  * print_binary - Print a number in the base 2
  * @list: Number to be printed in base 2
  *
- * Return: Length of numbers in binary
+ * Return: Length of number in binary
  **/
 int print_binary(va_list list)
 {
@@ -16,4 +16,4 @@ int print_binary(va_list list)
 	size = print(p_buff);
 
 	return (size);
-}
+}i
