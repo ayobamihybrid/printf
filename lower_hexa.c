@@ -2,9 +2,9 @@
 
 /**
  * print_hexadecimal_low - Print a number in hexadecimal format
- * @list: Number to print
+ * @list: Number to be printed
  *
- * Return: Length of number
+ * Return: Length of the number
  **/
 int print_hexadecimal_low(va_list list)
 {
