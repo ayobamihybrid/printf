@@ -1,22 +1,47 @@
 #include "main.h"
 
 /**
- * print_rev_string - Print a string in reverse
- * @list: List of arguments
- *
- * Return: Length of string
- **/
-int  print_rev_string(va_list list)
+ * rot13 - Encodes a string.
+ * @s: String to enconde
+ * Return: String encode
+ */
+int rot13(char *s)
 {
-	int i, size;
-	const char *str;
+	int i, j;
+	char *normal, *rot13;
 
-	str = va_arg(list, const char *);
+	normal = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	rot13 = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (j = 0; normal[j] != '\0'; j++)
+		{
+			if (s[i] == normal[j])
+			{
+				_putchar(rot13[j]);
+				break;
+			}
+		}
 
-	size = _strlen(str);
+		if (!normal[j])
+			_putchar(s[i]);
+	}
+	return (i);
+}
 
-	for (i = size - 1; i >= 0; i--)
-		_putchar(str[i]);
+/**
+ * print_rot - Prints the rot13'ed string
+ * @list: String to encoded
+ *
+ * Return: Length of the string encoded
+ **/
+int print_rot(va_list list)
+{
+	char *p;
+	int p_len;
 
-	return (size);
+	p = va_arg(list, char *);
+	p_len = rot13((p != NULL) ? p : "(ahyy)");
+
+	return (p_len);
 }
