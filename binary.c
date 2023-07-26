@@ -16,4 +16,4 @@ int print_binary(va_list list)
 	size = print(p_buff);
 
 	return (size);
-}i
+}

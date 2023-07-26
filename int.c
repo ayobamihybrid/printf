@@ -16,4 +16,4 @@ int print_integer(va_list list)
 	size = print((p_buff != NULL) ? p_buff : "NULL");
 
 	return (size);
-}i
+}
