@@ -2,7 +2,7 @@
 
 /**
  * print_octal - Print a unsigned octal
- * @list: Number to print
+ * @list: Numbers to print
  *
  * Return: Length of the number
  **/
