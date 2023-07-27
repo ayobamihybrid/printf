@@ -4,7 +4,7 @@
  * print_rev_string - Print a string in the reverse
  * @list: List of arguments
  *
- * Return: Length of the string
+ * Return: Lengths of the string
  **/
 int  print_rev_string(va_list list)
 {
