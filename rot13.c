@@ -3,7 +3,7 @@
 /**
  * rot13 - Encodes a string.
  * @s: String to enconde
- * Return: String encode
+ * Return: Strings encode
  */
 int rot13(char *s)
 {
