@@ -4,7 +4,7 @@
 int _strcmp(char *, char *);
 
 /**
- * print_pointer - Print a number in hexadecimal format
+ * print_pointer - Print a number in the hexadecimal format
  * @list: Number to be printed
  *
  * Return: Length of the number
