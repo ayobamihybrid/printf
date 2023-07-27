@@ -2,7 +2,7 @@
 
 /**
  * print_unsigned - Prints an unsigned int
- * @list: Number to be printed
+ * @list: Numbers to be printed
  *
  * Return: Length of the number
  **/
