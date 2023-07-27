@@ -4,7 +4,7 @@ int is_lowercase(char);
 char *string_to_upper(char *);
 
 /**
- * print_hexadecimal_upp - Print a number in hexadecimal format
+ * print_hexadecimal_upp - Print a number in the hexadecimal format
  * @list: Number to print
  *
  * Return: Length of number
